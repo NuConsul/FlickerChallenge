@@ -1,0 +1,25 @@
+1. How to implement the 4 observables.
+Standard:
+
+Flowable:
+
+Completable:
+
+Maybe:
+
+2. The difference in the 4 observables.
+
+
+3. How to implement the RXJava Map and FlatMap.
+
+
+4. The difference in map vs flatmap
+The map operator applies a function of your choosing to each item emitted by the source Observable,
+and returns an Observable that emits the results of these functions applications.
+
+The Flatmap operator transforms an Observable by applying a function that you specify to each item emitted by the
+source Observable, where that functions returns an Observable that itself emits items.
+
+5. What are hot and cold observables.
+Hot observables are close over external data producers.
+Cold observables are observables that run their sequence when and if they are subscribed to.
