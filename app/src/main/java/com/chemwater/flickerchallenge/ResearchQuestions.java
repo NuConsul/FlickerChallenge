@@ -1,3 +1,12 @@
+package com.chemwater.flickerchallenge;
+
+public class ResearchQuestions {
+}
+
+
+
+
+/*
 1. How to implement the 4 observables.
 
 Flowable:
@@ -52,3 +61,4 @@ source Observable, where that functions returns an Observable that itself emits 
 5. What are hot and cold observables.
 Hot observables are close over external data producers.
 Cold observables are observables that run their sequence when and if they are subscribed to.
+ */
